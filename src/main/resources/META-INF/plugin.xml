@@ -14,4 +14,17 @@
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
 
+    <actions>
+        <group id="CheongTape.Menu"
+               text="CheongTape"
+               description="CheongTape">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="CheongTape.Connect"
+                    class="com.johngrib.cheongtape.idea.ConnectAction"
+                    text="Connect"
+                    popup="false"
+                    description="Connect auto"/>
+        </group>
+    </actions>
+
 </idea-plugin>
