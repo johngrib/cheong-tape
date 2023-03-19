@@ -1,0 +1,17 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>johngrib.cheong-tape</id>
+    <name>Cheong Tape</name>
+    <vendor email="johngrib82@gmail.com" url="https://github.com/johngrib/cheong-tape">johngrib</vendor>
+    <description><![CDATA[
+    A personal IntelliJ plugin for custom features and a playground for learning plugin development.
+  ]]></description>
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html?from=jetbrains.org#modules-available-in-all-products -->
+    <depends>com.intellij.modules.lang</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+</idea-plugin>
